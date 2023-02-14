@@ -1,7 +1,4 @@
 # BasicExpressSession
-
-Cómo lo hacemos? Se levantará un sistema de login completo utilizando router + motor de plantillas Handlebars + base de datos para usuarios y sesiones + 
-
 Se deberá contar con una estructura de router para sessions en /api/sessions/ el cual contará con métodos para registrar a un usuario y para su respectivo login
 Se deberá contar además con un router de vistas en la ruta base / para llevar al formulario de login, de registro y de perfil.
 
@@ -33,7 +30,7 @@ Deberá contar con todas las vistas realizadas en el hands on lab, así también
 Una vez completado el login, realizar la redirección directamente a la vista de productos.
 Agregar a la vista de productos un mensaje de bienvenida con los datos del usuario
 
-Agregar un sistema de roles, de manera que si colocamos en el login como correo adminCoder@coder.com, y la contraseña adminCod3r123, el usuario de la sesión además tenga un campo 
+Agregar un sistema de roles, de manera que si colocamos en el login como correo admin2@gmail.com, y la contraseña admin1234
 
 
 Todos los usuarios que no sean admin deberán contar con un rol “usuario”.
